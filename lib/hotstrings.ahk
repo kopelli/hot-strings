@@ -10,7 +10,7 @@ EnvGet, sUserEmail, USER_EMAIL
 If (StrLen(sUserEmail)=0) {
     MsgBox, 0x2030, Environment Variable Required, Need to define the environment variable 'USER_EMAIL' with your appropriate email address
 } else {
-    SendInput sUserEmail
+    SendInput %sUserEmail%
 }
 return
 
@@ -19,7 +19,7 @@ EnvGet, sUserName, USER_FULLNAME
 If (StrLen(sUserName)=0) {
     MsgBox, 0x2030, Environment Variable Required, Need to define the environment variable 'USER_FULLNAME' with your full name
 } else {
-    SendInput sUserName
+    SendInput %sUserName%
 }
 return
 
