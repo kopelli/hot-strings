@@ -1,6 +1,8 @@
 ; When pressing WIN+K, open KeePass
 #K::
 ;EnvUpdate
+; For the options, 1 = Info Icon, 16 = No Sound
+TrayTip, AutoHotKey, Opening up KeePass..., 1, 17
 EnvGet, sKeePassExe, KeePassExe
 iExeLength := StrLen(sKeePassExe)
 If (iExeLength=0) {
