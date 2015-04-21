@@ -32,3 +32,11 @@ SendInput thank you
 return
 
 #IfWinNotActive
+
+#IfWinExist ahk_class AU3Reveal
++!Tab::
+OutputDebug, Attempting to freeze AutoIt Window Spy...
+ControlSend,ahk_parent,+!{Tab}, ahk_exe AU3_Spy.exe
+return
+
+#IfWinExist
