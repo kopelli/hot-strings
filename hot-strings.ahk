@@ -11,3 +11,4 @@ SetWorkingDir %A_ScriptDir%     ; Ensures a consistent starting directory.
 #include lib\windows.ahk
 #include lib\keepass.ahk
 #include lib\hotstrings.ahk
+#include lib\avaya.ahk

@@ -31,6 +31,10 @@ return
 SendInput thank you
 return
 
+::\caag::
+SendInput CA Agile Central
+return
+
 #IfWinNotActive
 
 #IfWinExist ahk_class AU3Reveal
