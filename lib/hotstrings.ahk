@@ -23,16 +23,16 @@ If (StrLen(sUserName)=0) {
 }
 return
 
-::np::
-SendInput no problem
-return
-
-::ty::
-SendInput thank you
-return
-
 ::\caag::
 SendInput CA Agile Central
+return
+
+::rally::
+SendInput CAAC
+return
+
+::Rally::
+SendInput CAAC
 return
 
 #IfWinNotActive
